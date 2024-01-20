@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+body{
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: rgb(243, 240, 237);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto 75vw auto;
+}
+
+fieldset{
+    background-color: rgb(235, 248, 241);
+}
+
+#button-field{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#calculate{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .18rem;
+    background-color: rgb(31, 160, 53);
+}
+
