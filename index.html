@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miles per gallon</title>
+</head>
+<body>
+    <form 
+        method="POST"
+        action="
+    ">
+        <fieldset>
+            <legend>date</legend>
+            <input type="date" name="date" id="">
+        </fieldset>
+
+        <fieldset style="display: flex; flex-direction: column;">
+            <legend>location</legend>
+            <div>
+                <input type="radio" name="location" id="" value="costco-shoreline">
+                <label for="costco-shoreline">costco shoreline</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="location" id="">
+                <label for="other">other <input type="text" name="other-input" id="other-input"></label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>miles</legend>
+            <input type="number" name="miles" id="" step=".01" placeholder="0.00">
+        </fieldset>
+
+        <fieldset>
+            <legend>gallons</legend>
+            <input type="number" name="" id="" step=".001" placeholder="0.000">
+        </fieldset>
+        <br>
+        <button type="submit">submit</button>
+        <br>
+        <br>
+        <fieldset>
+            <legend>miles/gallon</legend>
+            <div id="mpg"></div>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
