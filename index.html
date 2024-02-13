@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="container">
-        <div></div>
         <form 
             method="POST"
             action="
@@ -44,7 +43,7 @@
 
             <fieldset>
                 <legend>gallons</legend>
-                <input type="number" name="" id="gallons-input" step=".001" placeholder="0.000">
+                <input type="number" name="gallons" id="gallons-input" step=".001" placeholder="0.000">
             </fieldset>
 
             <fieldset id="button-field">
@@ -56,15 +55,14 @@
             <br>
             <fieldset>
                 <legend>miles/gallon</legend>
-                <div id="mpg"></div>
+                <input name="miles/gallon" readonly id="mpg"></input>
             </fieldset>
             <fieldset>
                 <legend>total price</legend>
-                <div id="total-price"></div>
+                <input name="total-price" readonly id="total-price"></input>
             </fieldset>
 
         </form>
-        <div></div>
     </div>
     
     

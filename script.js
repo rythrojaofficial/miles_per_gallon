@@ -21,8 +21,8 @@ let calculateButton = document.getElementById('calculate').addEventListener('cli
 
 let work = 'yes it works'
 function calculate(){
-    mpgDisplay.innerText = theMiles.value / theGallons.value;
-    totalPriceDisplay.innerText = thePrice.value * theGallons.value;
+    mpgDisplay.value = theMiles.value / theGallons.value;
+    totalPriceDisplay.value = thePrice.value * theGallons.value;
     // if (miles === ''){
     //     mpgDisplay.innerText="error: enter miles";
     //     totalPriceDisplay.innerText="error:enter miles";
